@@ -3,40 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Simple Blog</title>
 </head>
 <body>
     
     <!-- bai mae header -->
-<style>
-    /* Header Styles */
-    .header {
-        background-color: #333; /* Dark gray */
-        color: #fff; /* White text */
-        padding: 20px 0; /* Add padding to top and bottom */
-        display: flex; /* Use flexbox for layout */
-        align-items: center; /* Center align items vertically */
-        justify-content: space-between; /* Space between logo and navigation links */
-    }
-    .logo {
-        width: 50px; /* Adjust the width of the logo */
-        height: auto; /* Maintain aspect ratio */
-        margin-left: 20px; /* Add margin to the left of the logo */
-    }
-    .navigation {
-        margin-right: 20px; /* Add margin to the right of the navigation links */
-    }
-    .navigation a {
-        color: #fff; /* White text color for navigation links */
-        text-decoration: none; /* Remove underline from links */
-        margin-left: 20px; /* Add margin between links */
-        font-weight: bold; /* Make text bold */
-        transition: color 0.3s; /* Smooth color transition on hover */
-    }
-    .navigation a:hover {
-        color: #ddd; /* Light gray text color on hover */
-    }
-</style>
 </head>
 <body>
 
@@ -47,23 +19,26 @@
 
 <!-- Navigation Links -->
 <div class="navigation">
-    <a href="#">About</a>
-    <a href="#">Portfolio</a>
-    <a href="#">Categories</a>
+    <a href="#about">About</a>
+    <a href="#Portfolio">Portfolio</a>
+    <a href="#Categories">Categories</a>
 </div>
 </div>
+ <!-- sections here -->
+<section>
+    <div class="container">
+        <h1>About Us</h1>
+        <p>Welcome to our website! We are a team of passionate individuals dedicated to providing valuable services/products <br>
+         to our customers. Our mission is to [insert mission statement here]. With a focus on [insert focus area],  we strive to <br>
+          [insert goal or objective]. Our team consists of experts in various fields, working together <br>
+         to deliver high-quality solutions tailored to meet your needs. Whether you're looking for [insert services/products],<br>
+          we've got you covered. Feel free to explore our website to learn more about what we offer and how we can help  <br>
+           If you have any questions or inquiries, don't hesitate to contact us</a>. We're here to assist you!</p>
 
-
-    <!-- sections here -->
-
-
-
-
-    <!-- footer ko -->
- 
-
-
-
+           <a href="#about" class="btn btn-brand"> About us</a>
+    </div>
+    
+</section>
 <!-- Footer -->
 <div class="footer">
     <div class="footer-container">
@@ -104,57 +79,6 @@
 </div>
 
 <!-- Font Awesome for Social Icons -->
-
-    <!-- Footer design-->
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: rgb(25, 11, 64);/* Nude color */
-        }
-        .footer {
-            background-color: #f9ede5; /* Lighter nude color */
-            padding: 40px 20px;
-            border-top: 1px solid #e0b8a8; /* Light brown */
-        }
-        .footer-container {
-            display: flex;
-            justify-content: space-between;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .footer-section {
-            flex: 1;
-            min-width: 200px;
-            margin: 0 20px;
-        }
-        .footer-section h3 {
-            color: #5c4b3e; /* Dark brown */
-            margin-bottom: 20px;
-        }
-        .footer-section p, .footer-section ul, .footer-section li, .footer-section a {
-            color: #6c5e56; /* Brown */
-            margin-bottom: 10px;
-            text-decoration: none;
-        }
-        .footer-section ul {
-            list-style: none;
-            padding: 0;
-        }
-        .footer-section a:hover {
-            color: #a88678; /* Lighter brown */
-        }
-        .social-icons {
-            display: flex;
-            gap: 10px;
-        }
-        .social-icons a {
-            color: #6c5e56; /* Brown */
-            font-size: 24px;
-            text-decoration: none;
-        }
-    </style>
 
 </body>
 </html>

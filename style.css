@@ -1,0 +1,99 @@
+/* Header Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #333; /* Dark gray */
+    color: #fff; /* White text */
+    padding: 20px 10px; /* Add padding to top and bottom */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center align items vertically */
+    justify-content: space-between; /* Space between logo and navigation links */
+}
+.logo {
+    width: 50px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 20px; /* Add margin to the left of the logo */
+}
+.navigation {
+    margin-right: 20px; /* Add margin to the right of the navigation links */
+}
+.navigation a {
+    color: #fff; /* White text color for navigation links */
+    text-decoration: none; /* Remove underline from links */
+    margin-left: 20px; /* Add margin between links */
+    font-weight: bold; /* Make text bold */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+.navigation a:hover {
+    color: #ddd; /* Light gray text color on hover */
+}
+
+.container {
+    padding-top:  0;
+    text-align: center;
+    background-color: #63aa9e;
+    height: 60vh;
+
+}
+h1 {
+    padding-top: 50px;
+    color: black;
+    text-align: center;
+}
+p {
+    text-align: center;
+    padding-top: 50px;
+    line-height: 1.5;
+    color: black;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.footer {
+    background-color: #f9ede5; /* Lighter nude color */
+    padding: 40px 20px;
+    border-top: 1px solid #e0b8a8; /* Light brown */
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 0 20px;
+}
+.footer-section h3 {
+    color: #5c4b3e; /* Dark brown */
+    margin-bottom: 20px;
+}
+.footer-section p, .footer-section ul, .footer-section li, .footer-section a {
+    color: #6c5e56; /* Brown */
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding: 0%;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section a:hover {
+    color: #a88678; /* Lighter brown */
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+.social-icons a {
+    color: #6c5e56; /* Brown */
+    font-size: 24px;
+    text-decoration: none;
+}
